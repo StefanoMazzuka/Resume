@@ -1,0 +1,101 @@
+* {
+  font-family: Lucida Console, black;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+  /*border: solid 1px blue; */
+}
+
+body {
+    margin: 0px;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    position: fixed;
+    top: 1;
+    border: 1px solid black;
+    border-style: dashed;
+    border-radius: 5px;
+    background: white;
+    padding: 5px;
+}
+
+.main {
+    margin: 50px;
+}
+
+.profile_img {
+    border: 1px solid black;
+    border-style: dashed;
+    border-radius: 50%;
+}
+
+.personal_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.photo {
+    width: 20%;
+}
+
+.name {
+    width: 40%;
+}
+
+.info {
+    width: 40;
+}
+
+.block {
+    border-top: 0.5px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.block_title {
+    width: 30%;
+}
+
+.block_body {
+    width: 70%;
+}
+
+.work {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.work_name {
+    width: 30%;
+}
+
+.work_description {
+    width: 70%;
+}
+
+.separator {
+    height: 40px;
+}
+
+.button {
+    text-decoration:none;
+}
+
+.button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

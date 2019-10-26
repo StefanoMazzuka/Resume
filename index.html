@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stefano Mazzuka</title>
+    <meta name="author" content="Stefano Mazzuka">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+
+<body>
+    <div class="navbar">
+        <div><p class="button" id="ES_EN">ES/EN</p></div>
+        <div><a class="button" href="#profile">Profile</a></div>
+        <div><a class="button" href="#skills">Skills</a></div>
+        <div><a class="button" href="#work_experience">Work Experience</a></div>
+        <div><a class="button" href="#studies">Studies</a></div>
+        <div><a class="button" href="#languages">languages</a></div>
+        <div><a class="button" href="#certifications">Certifications</a></div>
+        <div><a class="button" href="#projects">Projects</a></div>
+    </div>
+    <div class="main">
+        <div class="personal_info">
+            <div class="photo">
+                <img src="./resources/profile_img.jpg" class="profile_img">
+            </div>
+            <div class="name">
+                <h1>Stefano Mazzuka</h1>
+            </div>
+            <div class="info">
+                <p>
+                    <b>GitHub:</b> <a href="https://github.com/StefanoMazzuka" target="_blank" class="button">StefanoMazzuka</a>
+                    <img src="./resources/link.png" height="12" width="12">
+                </p>
+                <br/>
+                <p><b>Tel: </b>+34 608 990 238</p>
+                <br/>
+                <p><b>Email: </b>stefano.mazzuka@gmail.com</p>
+            </div>
+        </div>
+        <div class="block" id="profile">
+            <div class="block_title">
+                <h1 id="profile_title"></h1>
+            </div>
+            <div class="block_body">
+                <p id="profile_body_0"></p><br/>
+                <p id="profile_body_1"></p><br/>
+                <p id="profile_body_2"></p>
+            </div>
+        </div>
+        <div class="block" id="skills">
+            <div class="block_title">
+                <h1 id="skills_title"></h1>
+            </div>
+            <div class="block_body">
+                <ul>
+                    <li id="skills_body_0"></li>
+                    <li id="skills_body_1"></li>
+                    <li id="skills_body_2"></li>
+                    <li id="skills_body_3"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="block" id="work_experience">
+            <div class="block_title">
+                <h1 id="work_experience_title"></h1>
+            </div>
+            <div class="block_body">
+                <div class="work">
+                    <div class="work_name">
+                        <h3 id="work_name_1"></h3>
+                        <p id="work_date_1"></p>
+                    </div>
+                    <div class="work_description">
+                        <a href="http://cim-ecm.es/en/" class="button" target="_blank"><b>CIM ECM</b></a>
+                        <img src="./resources/link.png" height="12" width="12">
+                        <div class="separator"></div>
+                        <p id="work_description_1_0"></p><br/>
+                        <p id="work_description_1_1"></p>
+                    </div>
+                </div>
+                <div class="separator"></div>
+                <div class="work">
+                    <div class="work_name">
+                        <h3 id="work_name_2"></h3>
+                        <p id="work_date_2"></p>
+                    </div>
+                    <div class="work_description">
+                        <a href="https://www.capgemini.com/" class="button" target="_blank"><b>Capgemini</b></a>
+                        <img src="./resources/link.png" height="12" width="12">
+                        <div class="separator"></div>
+                        <p id="work_description_2_0"></p><br/>
+                        <p id="work_description_2_1"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block" id="studies">
+            <div class="block_title">
+                <h1 id="studies_title"></h1>
+            </div>
+            <div class="block_body">
+                <div class="work">
+                    <div class="work_name">
+                        <a href="https://www.upc.edu/es" class="button" target="_blank">
+                            <h3>
+                                Universidad Politécnica de Cataluña
+                                <img src="./resources/link.png" height="12" width="12">
+                            </h3>
+                        </a>
+                        <p>2011 - 2012</p>
+                    </div>
+                    <div class="work_description">
+                        <p id="studies_description_1"></p>
+                    </div>
+                </div>
+                <div class="separator"></div>
+                <div class="work">
+                    <div class="work_name">
+                        <a href="https://www.ucm.es/" class="button" target="_blank">
+                            <h3>
+                                Universidad Complutense de Madrid
+                                <img src="./resources/link.png" height="12" width="12">
+                            </h3>
+                        </a>
+                        <p>2012 - 2019</p>
+                    </div>
+                    <div class="work_description">
+                        <p id="studies_description_2"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block" id="languages">
+            <div class="block_title">
+                <h1 id="languages_title"></h1>
+            </div>
+            <div class="block_body">
+                <p><b>Español</b> ★★★★★</p>
+                <p><b>English</b> ★★★★☆</p>
+                <p><b>Italiano</b> ★★★★☆</p>
+                <p><b>Català</b> ★★★☆☆</p>
+            </div>
+        </div>
+        <div class="block" id="certifications">
+            <div class="block_title">
+                <h1 id="certifications_title"></h1>
+            </div>
+            <div class="block_body">
+                <div class="work">
+                    <div class="work_name">
+                        <img src="./resources/badge.png" height="128" width="128">
+                        <p>2019</p>
+                    </div>
+                    <div class="work_description">
+                        <a href="https://www.youracclaim.com/badges/e00e2a28-7bed-4da9-a640-6a557d85936c/linked_in_profile" class="button" target="_blank">
+                            Exam 774: Perform Cloud Data Science with Azure Machine Learning.</a>
+                        <img src="./resources/link.png" height="12" width="12">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block" id="projects">
+            <div class="block_title">
+                <h1 id="projects_title"></h1>
+            </div>
+            <div class="block_body">
+                <h4>Spark, Scala</h4>
+                <a href="" class="button" target="_blank">a</a>
+
+                <div class="separator"></div>
+
+                <h4>Java, MySQL, SQLite, MicrosoftSQL</h4>
+                <a href="https://github.com/StefanoMazzuka/Login_Manager" class="button" target="_blank">Login_Manager</a>
+                <img src="./resources/link.png" height="12" width="12">
+                <a href="https://github.com/StefanoMazzuka/Database_Management" class="button" target="_blank">Database_Management</a>
+                <img src="./resources/link.png" height="12" width="12">
+                <a href="https://github.com/StefanoMazzuka/Product_Stock" class="button" target="_blank">Product_Stock</a>
+                <img src="./resources/link.png" height="12" width="12">
+                <a href="https://github.com/StefanoMazzuka/File_Management" class="button" target="_blank">File_Management</a>
+                <img src="./resources/link.png" height="12" width="12">
+                <a href="https://github.com/StefanoMazzuka/My_Cookbook" class="button" target="_blank">My_Cookbook</a>
+                <img src="./resources/link.png" height="12" width="12">
+
+                <div class="separator"></div>
+
+                <h4>Kotlin, Tensorflow, Android, Firebase, JSON, NoSQL</h4>
+                <a href="https://play.google.com/store/apps/details?id=com.ar.ciu.ciuar" class="button" target="_blank">CIU Tour</a>
+                <img src="./resources/link.png" height="12" width="12">
+                <a href="https://play.google.com/store/apps/details?id=com.stefanomazzuka.cronometro.trabajo.ocio" class="button" target="_blank">Work-Fun Stopwatch</a>
+                <img src="./resources/link.png" height="12" width="12">
+                <a href="https://play.google.com/store/apps/details?id=com.stefanomazzuka.teorema.de.pitagoras" class="button" target="_blank">Teorema de Pitágoras</a>
+                <img src="./resources/link.png" height="12" width="12">
+
+                <div class="separator"></div>
+
+                <h4>Genetic Algortihm, Evolutionary programming</h4>
+                <a href="https://github.com/StefanoMazzuka/Genetic_Programming" class="button" target="_blank">Genetic_Programming</a>
+                <img src="./resources/link.png" height="12" width="12">
+                <a href="https://github.com/StefanoMazzuka/Genetic_Algorithm" class="button" target="_blank">Genetic_Algorithm</a>
+                <img src="./resources/link.png" height="12" width="12">
+                <a href="https://github.com/StefanoMazzuka/Decode_Text" class="button" target="_blank">Decode_Text</a>
+                <img src="./resources/link.png" height="12" width="12">
+
+                <div class="separator"></div>
+
+                <h4>C++, C</h4>
+                <a href="https://github.com/StefanoMazzuka/Estructura_de_Datos_y_Algoritmos" class="button" target="_blank">Estructura_de_Datos_y_Algoritmos</a>
+                <img src="./resources/link.png" height="12" width="12">
+                <a href="https://github.com/StefanoMazzuka/Algorithmic_Techniques_In_Software_Engineering" class="button" target="_blank">Algorithmic_Techniques_In_Software_Engineering</a>
+                <img src="./resources/link.png" height="12" width="12">
+
+                <div class="separator"></div>
+
+                <h4>JavaScript, HTML, CSS</h4>
+                <a href="https://stefanomazzuka.github.io/Memory_Game.github.io/" class="button" target="_blank">Memory_Game.github.io</a>
+                <img src="./resources/link.png" height="12" width="12">
+                <a href="https://github.com/StefanoMazzuka/Web_Applications" class="button" target="_blank">Web_Applications</a>
+                <img src="./resources/link.png" height="12" width="12">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
