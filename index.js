@@ -8,10 +8,10 @@ $(function () {
     let profile_title_EN = "Profile";
     let profile_body_ES = ["Estudiar informática es encontrar soluciones para ayudar a los demás. Me interesé por la programación eficiente. Tengo soluciones en las que empleo programación evolutiva en GitHub como Genetic_Algorithm y Decode_Text.",
                           "Algunos proyectos muy simples de Android en los que buscaba aprender in/out y concurrencia de hilos de ejecución. Busco también poder trabajar en desarrollo móvil.",
-                          "Actualmente estoy desarrollando mi TFG sobre reconocimiento de imágenes con AI usando TensorFlow de Google. El objetivo es realizar un recorrido turístico por la Ciudad Universitaria de Madrid en el cual los usuarios interactúen con los monumentos con AR."];
+                          "Desarrollé mi TFG sobre reconocimiento de imágenes con AI usando TensorFlow de Google. El objetivo es realizar un recorrido turístico por la Ciudad Universitaria de Madrid en el cual los usuarios interactúen con los monumentos con AR."];
     let profile_body_EN = ["Studying computer science is finding solutions to help others. I was interested in efficient programming. I have solutions in which I use evolutionary programming in GitHub such as Genetic_Algorithm and Decode_Text.",
                            "Some very simple Android projects in which I wanted to learn in/out and concurrence of execution threads. I'm also looking forward to working in mobile development.",
-                           "I'm currently developing my TFG on image recognition with AI using Google's TensorFlow. The goal is to make a tour of the University City of Madrid in which users interact with the monuments with AR."];
+                           "I develop my TFG on image recognition with AI using Google's TensorFlow. The goal is to make a tour of the University City of Madrid in which users interact with the monuments with AR."];
 
     let skills_title_ES = "Aptitudes";
     let skills_title_EN = "Skills";
